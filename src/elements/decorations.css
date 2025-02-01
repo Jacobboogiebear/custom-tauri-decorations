@@ -1,0 +1,77 @@
+/**
+ * Copyright (c) 2025 Jacob
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+ /** All just decorative CSS values */
+
+.decb_container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: #7c7c7c;
+}
+
+.decb_title {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0, -50%);
+    font-family: "atwriter";
+    font-size: 28px;
+    color: #ffffff;
+    pointer-events: none;
+}
+
+.decb_title::selection {
+    background-color: #00000000;
+}
+
+.decb_exit {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.decb_exit:hover {
+    background-color: #444444;
+}
+
+.decb_minimize {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.decb_minimize:hover {
+    background-color: #444444;
+}
+
+.decb_touchbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100vw - 100px);
+    height: 100%;
+    cursor: pointer;
+}
+
+.decb_exit_icon::selection {
+    background-color: #00000000;
+}
+
+.decb_minimize_icon::selection {
+    background-color: #00000000;
+}
